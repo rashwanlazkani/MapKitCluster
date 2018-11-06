@@ -1,7 +1,7 @@
 # MapKitCluster
 Sample project that demonstrates how to use native clustering in MapKit.
 
-## didSelect logic
+## didSelect annotation logic
 When a user clicks on an annotation there is a check if it´s a cluster that has been selected. If it´s a cluster the following will happen:
 
 ### Case: <= 4
@@ -35,3 +35,6 @@ if let annotation = view.annotation as? MKClusterAnnotation {
     }
 }
 ```
+
+## Screenshot
+![](https://github.com/rashwanlazkani/MapKitCluster/blob/master/Screenshots/MapKitCluster.jpeg)
